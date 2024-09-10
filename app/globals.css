@@ -25,3 +25,48 @@ body {
     text-wrap: balance;
   }
 }
+
+/* This class animates the text color change */
+.textColorFade {
+  color: rgb(0, 0, 0); /* Start with gray text */
+  animation: 0.0001s linear 0.5s 1 normal forwards running fadeToWhite;
+}
+
+/* This pseudo-element creates an animated moving bar effect */
+.textColorFade::after {
+  content: "";
+  top: 0px;
+  left: 0px;
+  position: absolute;
+  width: 0%;
+  height: 100%;
+  background: rgb(255, 255, 255); /* Adjust this if needed */
+  animation: 1s cubic-bezier(0.19, 1, 0.22, 1) 0s 1 normal forwards running slideBar;
+}
+
+
+/* Keyframes for fadeToWhite animation (text color change from gray to white) */
+@keyframes fadeToWhite {
+  0% {
+    color: rgb(0, 0, 0); /* Start as gray */
+  }
+  100% {
+    color: rgb(255, 255, 255); /* End as white */
+  }
+}
+
+/* Keyframes for slideBar animation (moving bar effect) */
+@keyframes slideBar {
+  0% {
+    left: 0px;
+    width: 0%;
+  }
+  50% {
+    left: 0%;
+    width: 100%;
+  }
+  100% {
+    left: 100%;
+    width: 0%;
+  }
+}
