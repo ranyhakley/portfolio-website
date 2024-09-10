@@ -21,7 +21,7 @@ const CodingTimer: React.FC = () => {
   });
 
   useEffect(() => {
-    const startDate = new Date('2023-07-01T00:00:00'); // Replace with your start date
+    const startDate = new Date('2020-01-01T00:00:00'); // Replace with your start date
 
     const calculateTimeElapsed = () => {
       const now = new Date();
@@ -69,12 +69,13 @@ const CodingTimer: React.FC = () => {
 
   return (
     <div>
+      <h1>I've been coding for:</h1>
       <p>
         {renderTimeSegment(timeElapsed.years, 'year')}
         {renderTimeSegment(timeElapsed.months, 'month')}
         {renderTimeSegment(timeElapsed.days, 'day')}
-        {renderTimeSegment(timeElapsed.hours, 'hour')}
-        {timeElapsed.minutes > 0 ? `${timeElapsed.minutes} minute${timeElapsed.minutes > 1 ? 's' : ''}, ` : ''}
+        {timeElapsed.hours} hours, 
+        {timeElapsed.minutes > 0 ? ` ${timeElapsed.minutes} minute${timeElapsed.minutes > 1 ? 's' : ''}, ` : ''}
         {timeElapsed.seconds} second{timeElapsed.seconds !== 1 ? 's' : ''}.
       </p>
     </div>

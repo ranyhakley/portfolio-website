@@ -21,7 +21,7 @@ const Hero = () => {
             </div>
             <div>
                 <span className="text-l textColorFade inline relative">
-                    looking to broaden my horizon.
+                    looking to broaden my horizons.
                 </span>
             </div>
         </div>
