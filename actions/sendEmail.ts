@@ -27,11 +27,13 @@ export const sendEmail = async(formData: FormData) => {
     }
   }
 
-  resend.emails.send({
-    from:"onboarding@resend.dev",
-    to:"dev.ranyhakley@gmail.com",
-    subject:"Mail from portfolio website",
-    reply_to: senderEmail as string,
-    text: message as string,
-  });
+// dont forget to change placeholder
+
+  // resend.emails.send({
+  //   from:"onboarding@resend.dev",
+  //   to:"dev.ranyhakley@gmail.com",
+  //   subject:"Mail from portfolio website",
+  //   reply_to: senderEmail as string,
+  //   text: message as string,
+  // });
 };

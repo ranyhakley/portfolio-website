@@ -19,15 +19,15 @@ const About = () => {
                 <span className="text-neutral-50"> Software Development</span>.
             </p>
             <p className="text-neutral-400 pt-4 text-md">
-                Once an idea comes to mind, I find it hard to keep myself from stopping.
+                {`Once an idea comes to mind, I find it hard to keep myself from stopping.
                 I started coding in 2023 July, and so far i'm in love with it!
                 I'm always eager to learn new things and ready to face a challenge!
-                I'm confident in my ability to change and adapt to new environments.
+                I'm confident in my ability to change and adapt to new environments.`}
             </p>
             <p className="text-neutral-400 pt-4 text-md">
-                When I'm not infront of a screen, I mostly spend my time on cooking, 
+                {`When I'm not infront of a screen, I mostly spend my time on cooking, 
                 baking, bouldering, videography, and travelling.
-                I'm also a bilingual in the process of becoming a trilingual.
+                I'm also a bilingual in the process of becoming a trilingual.`}
             </p>
         </div>
         <div>

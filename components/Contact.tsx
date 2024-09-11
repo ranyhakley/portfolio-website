@@ -19,7 +19,7 @@ const Contact = () => {
             }}
         >
             <input type="email" name="email" className="h-14 rounded-lg border border-white px-4 text-black" placeholder="Your email" required maxLength={100}/>
-            <textarea name="message" className="h-52 my-3 rounded-lg border border-white px-4 pt-2 text-black" placeholder="Your message" required maxLength={1000}/>
+            <textarea name="message" className="h-52 my-3 rounded-lg border border-white px-4 pt-2 text-black" placeholder="This form currently does not work" required maxLength={1000}/>
             <button type="submit" className="mt-4 h-[2.5rem] w-[5rem] bg-neutral-400/10 text-neutral-300 hover:bg-white hover:text-black rounded-full outline-none transition-all 
                                             items-center font-bold focus:scale-110 hover:scale-110 active:scale-105 active:bg-neutral-300 ">
             Send
