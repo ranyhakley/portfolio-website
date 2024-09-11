@@ -2,6 +2,8 @@
 import React, { useEffect, useState } from 'react';
 import Hero from "@/components/Hero";
 import About from '@/components/About';
+import Projects from '@/components/Projects';
+import Contact from '@/components/Contact';
 
 // Define types for gradient position state
 interface GradientPosition {
@@ -45,6 +47,8 @@ const Home: React.FC = () => {
           </header>
           <main className="pt-10 lg:w-1/2 lg:py-24">
             <About/>
+            <Projects/>
+            <Contact/>
           </main>
         </div>
       </div>
