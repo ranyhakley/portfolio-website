@@ -1,9 +1,11 @@
 "use client";
 import React, { useEffect, useState } from 'react';
-import Hero from "@/components/Hero";
-import About from '@/components/About';
-import Projects from '@/components/Projects';
-import Contact from '@/components/Contact';
+import {Header} from '@/components/Header';
+import {About} from '@/components/About';
+import {Projects} from '@/components/Projects';
+import {Contact} from '@/components/Contact';
+import { Footer } from '@/components/Footer';
+
 
 // Define types for gradient position state
 interface GradientPosition {
@@ -43,12 +45,13 @@ const Home: React.FC = () => {
       <div className="mx-auto min-h-screen max-w-screen-xl px-6 py-12 font-sans md:px-12 md:py-20 lg:px-24 lg:py-0">
         <div className="lg:flex lg:justify-between lg:gap-4">
           <header className="lg:sticky lg:top-0 lg:flex lg:max-h-screen lg:justify-between lg:w-1/2 lg:flex-col lg:py-24">
-            <Hero/>
+            <Header/>
           </header>
           <main className="pt-10 lg:w-1/2 lg:py-24">
             <About/>
             <Projects/>
             <Contact/>
+            <Footer/>
           </main>
         </div>
       </div>

@@ -1,13 +1,13 @@
 
 "use client";
 import React from 'react';
-import { useActiveSection } from '../hooks/useActiveSection';
+import {useActiveSection} from '../hooks/useActiveSection';
 
-const Hero = () => {
-  const activeSection = useActiveSection(); // Using the custom hook
+export const Header = () => {
+  const activeSection = useActiveSection(); // using the custom hook
 
   return (
-    <section id="hero">
+    <section id="header">
       <div>
         <span className="text-4xl font-extrabold textColorFade inline relative">
           <a href="/">Rany Hakley Hong</a>
@@ -143,5 +143,3 @@ const Hero = () => {
     </section>
   );
 };
-
-export default Hero;

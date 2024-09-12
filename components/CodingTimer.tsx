@@ -10,7 +10,7 @@ interface TimeDifference {
   seconds: number;
 }
 
-const CodingTimer: React.FC = () => {
+export const CodingTimer: React.FC = () => {
   const [timeElapsed, setTimeElapsed] = useState<TimeDifference>({
     years: 0,
     months: 0,
@@ -73,4 +73,3 @@ const CodingTimer: React.FC = () => {
   );
 };
 
-export default CodingTimer;

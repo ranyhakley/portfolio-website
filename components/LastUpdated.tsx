@@ -10,7 +10,7 @@ interface TimeDifference {
   seconds: number;
 }
 
-const LastUpdated: React.FC = () => {
+export const LastUpdated: React.FC = () => {
   const [timeElapsed, setTimeElapsed] = useState<TimeDifference>({
     years: 0,
     months: 0,
@@ -21,7 +21,7 @@ const LastUpdated: React.FC = () => {
   });
 
   useEffect(() => {
-    const startDate = new Date('2024-09-12T00:38:49'); // Replace with your last updated day and time in 24 hours format
+    const startDate = new Date('2024-09-13T03:32:49'); // Replace with your last updated day and time in 24 hours format
 
     const calculateTimeElapsed = () => {
       const now = new Date();
@@ -79,5 +79,3 @@ const LastUpdated: React.FC = () => {
     </div>
   );
 };
-
-export default LastUpdated;

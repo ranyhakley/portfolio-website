@@ -9,7 +9,7 @@ export const useActiveSection = () => {
     const options = {
       root: null,
       rootMargin: '0px',
-      threshold: 0.6,
+      threshold: 0.9,   //only change section if 90% of the section is in viewport
     };
 
     const observer = new IntersectionObserver((entries) => {
@@ -33,3 +33,4 @@ export const useActiveSection = () => {
 
   return activeSection;
 };
+
