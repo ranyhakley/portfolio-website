@@ -41,13 +41,13 @@ export const About = () => {
                 Artificial Intelligence: <span className="text-neutral-50 textColorFade inline relative">Python, Scikit-learn, Matplotlib, Panda</span>
             </p>
         </div>
-        <div className="lg:pt-10 md:pt-5 sm:pt-3">
+        <div className="lg:pt-10 md:pt-5 pt-5 ">
             <span className="text-l textColorFade inline relative">
                 Portfolio last updated since:
                 <LastUpdated/>
             </span>
         </div>
-        <div className="lg:pt-10 md:pt-5 sm:pt-3">
+        <div className="lg:pt-10 md:pt-5 pt-5">
             <span className="text-l textColorFade inline relative">
                 I have been coding for:
                 <CodingTimer/>
