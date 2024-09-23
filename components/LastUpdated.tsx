@@ -21,7 +21,7 @@ export const LastUpdated: React.FC = () => {
   });
 
   useEffect(() => {
-    const startDate = new Date('2024-09-13T21:32:49'); // Replace with your last updated day and time in 24 hours format
+    const startDate = new Date('2024-09-23T16:36:47'); // Replace with your last updated day and time in 24 hours format
 
     const calculateTimeElapsed = () => {
       const now = new Date();
@@ -79,3 +79,10 @@ export const LastUpdated: React.FC = () => {
     </div>
   );
 };
+
+
+
+// Future improvements:
+// Light and Dark Theme Toggle
+// The About page programming languages/library have custom icons
+// Add time frame for projects
