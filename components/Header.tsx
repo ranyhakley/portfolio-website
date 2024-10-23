@@ -91,8 +91,8 @@ export const Header = () => {
       </div>
       <div>
         <ul className="ml-1 mr-24 mt-8 flex">
-          <li className="mr-5 text-xs shrink-0">
-            <a className="block hover:text-neutral-50 text-neutral-400" href="https://github.com/midoriiiiiiiii" target="_blank" rel="noreferrer noopener" aria-label="GitHub (opens in a new tab)" title="GitHub">
+          <li className="mr-5 text-s shrink-0">
+            <a className="block hover:text-neutral-50 text-neutral-400" href="https://github.com/ranyhakley" target="_blank" rel="noreferrer noopener" aria-label="GitHub (opens in a new tab)" title="GitHub">
               <div className="flex flex-col items-center justify-center">
                 <span className="sr-only">GitHub</span>
                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" fill="currentColor" className="h-6 w-6" aria-hidden="true">
@@ -103,7 +103,7 @@ export const Header = () => {
               </div>
             </a>
           </li>
-          <li className="mr-5 text-xs shrink-0">
+          <li className="mr-5 text-s shrink-0">
             <a className="block hover:text-neutral-50 text-neutral-400" href="https://www.linkedin.com/in/ranyhakleyh/" target="_blank" rel="noreferrer noopener" aria-label="LinkedIn (opens in a new tab)" title="LinkedIn">
               <div className="flex flex-col items-center justify-center">
                 <span className="sr-only">LinkedIn</span>
@@ -115,7 +115,7 @@ export const Header = () => {
               </div>
             </a>
           </li>
-          <li className="mr-5 text-xs shrink-0">
+          <li className="mr-5 text-s shrink-0">
             <a className="block hover:text-neutral-50 text-neutral-400" href="#contact" title="Gmail">
               <div className="flex flex-col items-center justify-center">
                 <span className="sr-only">Gmail</span>
@@ -127,7 +127,7 @@ export const Header = () => {
 
             </a>
           </li>
-          <li className="mr-5 text-xs shrink-0">
+          <li className="mr-5 text-s shrink-0">
             <a className="block hover:text-neutral-50 text-neutral-400" href="/RanyHakleyHongResume.pdf" download title="Resume">
               <div className="flex flex-col items-center justify-center">
                 <span className="sr-only">Resume</span>
