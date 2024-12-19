@@ -128,7 +128,7 @@ export const Header = () => {
             </a>
           </li>
           <li className="mr-5 text-s shrink-0">
-            <a className="block hover:text-neutral-50 text-neutral-400" href="/RanyHakleyHongResume.pdf" download title="Resume">
+            <a className="block hover:text-neutral-50 text-neutral-400" href="/RanyHakleyHongCV.pdf" download title="Resume">
               <div className="flex flex-col items-center justify-center">
                 <span className="sr-only">Resume</span>
                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 50 48" fill="currentColor" className="h-6 w-6" aria-hidden="true">

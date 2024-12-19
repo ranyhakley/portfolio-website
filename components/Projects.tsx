@@ -14,7 +14,7 @@ export const Projects = () => {
                     </div>
                     <div className="z-10 sm:order-2 sm:col-span-6">
                         <h3>
-                            <a className="inline-flex items-baseline font-medium leading-tight text-neutral-300 hover:text-white focus-visible:text-white group/link text-base" href="https://github.com/midoriiiiiiiii/custom-app" target="_blank" rel="noreferrer noopener" aria-label="Custom App (opens in a new tab)">
+                            <a className="inline-flex items-baseline font-medium leading-tight text-neutral-300 hover:text-white focus-visible:text-white group/link text-base" href="https://github.com/ranyhakley/custom-app" target="_blank" rel="noreferrer noopener" aria-label="Custom App (opens in a new tab)">
                                 <span className="absolute -inset-x-4 -inset-y-2.5 hidden rounded md:-inset-x-6 md:-inset-y-4 lg:block"></span>
                                 <span>Custom E-commerce Web<span> </span>
                                     <span className="inline-block">App
