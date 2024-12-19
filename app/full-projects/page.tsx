@@ -93,7 +93,7 @@ const Archive: React.FC = () => {
                 </li>
               </ul>
             </div>
-            <img alt="Custom app homepage" loading="lazy" width="200" height="48" decoding="async" data-nimg="1" className="rounded border-2 border-slate-200/10 transition group-hover:border-slate-200/30 sm:order-1 sm:col-span-2 sm:translate-y-1 hover:opacity-0" src="/comingsoon.png" />
+            <img alt="Custom app homepage" loading="lazy" width="200" height="48" decoding="async" data-nimg="1" className="rounded border-2 border-slate-200/10 transition group-hover:border-slate-200/30 sm:order-1 sm:col-span-2 sm:translate-y-1 hover:opacity-0" src="/ecommerce.png" />
           </div>
         </li>
         <li className="mb-12">
@@ -135,7 +135,7 @@ const Archive: React.FC = () => {
                 </li>
               </ul>
             </div>
-            <img alt="AI MTVRP homepage" loading="lazy" width="200" height="48" decoding="async" data-nimg="1" className="rounded border-2 border-slate-200/10 transition group-hover:border-slate-200/30 sm:order-1 sm:col-span-2 sm:translate-y-1 hover:opacity-0" src="/comingsoon.png" />
+            <img alt="AI MTVRP homepage" loading="lazy" width="200" height="48" decoding="async" data-nimg="1" className="rounded border-2 border-slate-200/10 transition group-hover:border-slate-200/30 sm:order-1 sm:col-span-2 sm:translate-y-1 hover:opacity-0" src="/intelligentroute.png" />
           </div>
         </li>
         <li className="mb-12">
@@ -144,7 +144,7 @@ const Archive: React.FC = () => {
             </div>
             <div className="z-10 sm:order-2 sm:col-span-6">
               <h3>
-                <a className="inline-flex items-baseline font-medium leading-tight text-neutral-300 hover:text-white focus-visible:text-white group/link text-base" href="https://github.com/midoriiiiiiiii/housing-price-prediction" target="_blank" rel="noreferrer noopener" aria-label="Spotify Profile (opens in a new tab)">
+                <a className="inline-flex items-baseline font-medium leading-tight text-neutral-300 hover:text-white focus-visible:text-white group/link text-base" href="https://housing-price-prediction-ten.vercel.app/" target="_blank" rel="noreferrer noopener" aria-label="Spotify Profile (opens in a new tab)">
                   <span className="absolute -inset-x-4 -inset-y-2.5 hidden rounded md:-inset-x-6 md:-inset-y-4 lg:block"></span>
                   <span>Housing Price Prediction Web<span> </span>
                     <span className="inline-block">App
@@ -174,7 +174,7 @@ const Archive: React.FC = () => {
                 </li>
               </ul>
             </div>
-            <img alt="housing price prediction web app homepage" loading="lazy" width="200" height="48" decoding="async" data-nimg="1" className="rounded border-2 border-slate-200/10 transition group-hover:border-slate-200/30 sm:order-1 sm:col-span-2 sm:translate-y-1 hover:opacity-0" src="/comingsoon.png" />
+            <img alt="housing price prediction web app homepage" loading="lazy" width="200" height="48" decoding="async" data-nimg="1" className="rounded border-2 border-slate-200/10 transition group-hover:border-slate-200/30 sm:order-1 sm:col-span-2 sm:translate-y-1 hover:opacity-0" src="/housepriceprediction.png" />
           </div>
         </li>
       </ul>

@@ -11,7 +11,7 @@ export const About = () => {
         </div>
         <div>
             <p className="text-neutral-400 text-md">
-                Currently a 2nd Year Student at
+                Currently a 3rd Year Student at
                 <span className="text-neutral-50"> Swinburne University of Technology </span>
                 studying 
                 <span className="text-neutral-50"> Bachelor of Computer Science</span>
@@ -35,7 +35,7 @@ export const About = () => {
                 Foundation: <span className="textColorFade inline relative">C++, Java, Python</span>
             </p>
             <p className="mt-2 mb-2 text-neutral-400 pt-4 text-md">
-                Web development: <span className="text-neutral-50 textColorFade inline relative">JS, TS, Streamlit, Vue, React, Bootstrap, Tailwind</span>
+                Web development: <span className="text-neutral-50 textColorFade inline relative">JavaScript, TypeScript, Streamlit, Vue, React, Bootstrap, Tailwind</span>
             </p>
             <p className="mt-2 text-neutral-400 pt-4 text-md">
                 Artificial Intelligence: <span className="text-neutral-50 textColorFade inline relative">Python, Scikit-learn, Matplotlib, Panda</span>
