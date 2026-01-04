@@ -35,7 +35,7 @@ export const About = () => {
                 Foundation: <span className="textColorFade inline relative">C++, Java, Python</span>
             </p>
             <p className="mt-2 mb-2 text-neutral-400 pt-4 text-md">
-                Web development: <span className="text-neutral-50 textColorFade inline relative">JavaScript, TypeScript, Streamlit, Vue, React, Bootstrap, Tailwind</span>
+                Web development: <span className="text-neutral-50 textColorFade inline relative">JavaScript, TypeScript, Streamlit, Vue, React</span>
             </p>
             <p className="mt-2 text-neutral-400 pt-4 text-md">
                 Artificial Intelligence: <span className="text-neutral-50 textColorFade inline relative">Python, Scikit-learn, Matplotlib, Panda</span>
@@ -44,7 +44,7 @@ export const About = () => {
                 Mobile Development: <span className="text-neutral-50 textColorFade inline relative">Kotlin, Flutter, Dart, React Native</span>
             </p>
             <p className="mt-2 text-neutral-400 pt-4 text-md">
-                Backend/Devops: <span className="text-neutral-50 textColorFade inline relative">Azure, AWS, Docker, Github</span>
+                Backend/Devops: <span className="text-neutral-50 textColorFade inline relative">Azure, AWS, Docker, Github, SQL</span>
             </p>
         </div>
         <div className="lg:pt-10 md:pt-5 pt-5 ">
