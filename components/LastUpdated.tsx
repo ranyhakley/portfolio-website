@@ -21,7 +21,7 @@ export const LastUpdated: React.FC = () => {
   });
 
   useEffect(() => {
-    const startDate = new Date('2024-12-20T00:45:47'); // Replace with your last updated day and time in 24 hours format
+    const startDate = new Date('2026-1-4T07:35:47'); // Replace with your last updated day and time in 24 hours format
 
     const calculateTimeElapsed = () => {
       const now = new Date();
