@@ -40,6 +40,12 @@ export const About = () => {
             <p className="mt-2 text-neutral-400 pt-4 text-md">
                 Artificial Intelligence: <span className="text-neutral-50 textColorFade inline relative">Python, Scikit-learn, Matplotlib, Panda</span>
             </p>
+            <p className="mt-2 text-neutral-400 pt-4 text-md">
+                Mobile Development: <span className="text-neutral-50 textColorFade inline relative">Kotlin, Flutter, Dart, React Native</span>
+            </p>
+            <p className="mt-2 text-neutral-400 pt-4 text-md">
+                Backend/Devops: <span className="text-neutral-50 textColorFade inline relative">Azure, AWS, Docker, Github</span>
+            </p>
         </div>
         <div className="lg:pt-10 md:pt-5 pt-5 ">
             <span className="text-l textColorFade inline relative">
