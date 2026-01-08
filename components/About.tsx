@@ -32,7 +32,7 @@ export const About = () => {
         </div>
         <div>
             <p className="mt-2 mb-2 text-neutral-400 pt-4 text-md">
-                Foundation: <span className="textColorFade inline relative">C++, Java, Python</span>
+                Base: <span className="textColorFade inline relative">C++, Java, Python</span>
             </p>
             <p className="mt-2 mb-2 text-neutral-400 pt-4 text-md">
                 Web development: <span className="text-neutral-50 textColorFade inline relative">JavaScript, TypeScript, Streamlit, Vue, React</span>
