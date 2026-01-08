@@ -21,7 +21,7 @@ export const About = () => {
             <p className="text-neutral-400 pt-4 text-md">
                 {`I have 6 months of experience working in a professional, 
                 and agile environment with Water Source Australia as an
-                Intern Software Engineer. Led a solo project for an Android App.`}
+                Intern Software Engineer.`}
             </p>
             <p className="text-neutral-400 pt-4 text-md">
                 {`Once an idea comes to mind, I find it hard to keep myself from stopping.
